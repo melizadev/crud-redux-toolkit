@@ -12,7 +12,7 @@ const TaskCard = ({ tasks, handleDelete }) => {
             <h3 className="text-lg font-bold line-clamp-1">{task.title}</h3>
             <div className="flex gap-x-2">
               <Link
-                to={`/edit-task/${task.id}`}
+                to={`/task-flow/edit-task/${task.id}`}
                 className="bg-zinc-600 hover:bg-zinc-500 cursor-pointer p-2 text-sm rounded-md self-center transition-colors duration-200"
               >
                 Edit

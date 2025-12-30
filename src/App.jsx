@@ -10,9 +10,9 @@ function App() {
         <Header />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<TasksList />} />
-            <Route path="/create-task" element={<TaskForm />} />
-            <Route path="/edit-task/:id" element={<TaskForm />} />
+            <Route path="/task-flow/" element={<TasksList />} />
+            <Route path="/task-flow/create-task" element={<TaskForm />} />
+            <Route path="/task-flow/edit-task/:id" element={<TaskForm />} />
           </Routes>
         </BrowserRouter>
       </div>

@@ -6,7 +6,7 @@ const TaskHeader = ({ tasks }) => {
         Tasks: {tasks.length}
       </h2>
       <Link
-        to="/create-task"
+        to="/task-flow/create-task"
         className="bg-indigo-600 hover:bg-indigo-500 transition-colors duration-200 p-2 rounded-md text-sm font-medium shadow-sm"
       >
         Create Task

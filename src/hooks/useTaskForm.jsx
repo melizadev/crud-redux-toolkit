@@ -36,7 +36,7 @@ const useTaskForm = () => {
       );
     }
 
-    navigate("/");
+    navigate("/task-flow/");
   };
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const useTaskForm = () => {
 
   useEffect(() => {
     const handleEscapeKey = (e) => {
-      if (e.key === "Escape") navigate("/");
+      if (e.key === "Escape") navigate("/task-flow/");
     };
     window.addEventListener("keydown", handleEscapeKey);
     return () => window.removeEventListener("keydown", handleEscapeKey);
